@@ -1,8 +1,11 @@
-# Project473
+# Project473: Snark-A-Boss
 
-jquery-comments
-jquery-ui
-bootstrap
+#Credits
+jquery-comments: https://github.com/Viima/jquery-comments
+jquery-ui: http://jqueryui.com/
+bootstrap: http://getbootstrap.com/
+
+Theme:
 * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
 https://www.pexels.com/photo/access-adult-blur-business-261628/
 
