@@ -948,7 +948,7 @@
             // Use a clone of the existing model and update the model after succesfull update
             var commentJSON = $.extend({}, this.commentsById[textarea.attr('data-comment')]);
             $.extend(commentJSON, {
-                parent: null,
+                parent: textarea.attr('data-parent') || null,
                 content: this.getTextareaContent(textarea),
                 pings: this.getPings(textarea),
                 modified: new Date().getTime()
@@ -1995,8 +1995,8 @@
             var time = new Date().toISOString();
 
             var commentJSON = {
-                //id: parseInt(this.getComments().length + 1), // Temporary id
-                parent: null,
+                id: parseInt(this.getComments().length + 1), // Temporary id
+                parent: textarea.attr('data-parent') || null,
                 created: time,
                 modified: time,
                 content: this.getTextareaContent(textarea),

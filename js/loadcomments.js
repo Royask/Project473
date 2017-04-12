@@ -2,7 +2,12 @@ var SERVER_URL = 'http://localhost:3002';
 
 var saveComment = function(data) {
 
-    $.post(SERVER_URL + '/' + 'commentsArray', data);
+    $.ajax({
+      url: SERVER_URL + '/' + 'commentsArray',
+      data: JSON.stringify(data),
+      type: "POST",
+      contentType: "application/json"
+    });
     return data;
 };
 
@@ -21,7 +26,7 @@ function getIDComments() {
             enableHashtags: true,
             enablePinging: true,
             enableEditing: false,
-            enableReplying: false,
+            enableReplying: true,
             enableUpvoting: false,
             getComments: function(success, error) {
                 setTimeout(function() {

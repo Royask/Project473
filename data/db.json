@@ -1,121 +1,32 @@
 {
   "commentsArray": [
     {
-      "parent": "",
-      "created": "2017-04-02T07:26:31.620Z",
-      "modified": "2017-04-02T07:26:31.620Z",
-      "content": "you suck",
+      "id": 1,
+      "parent": null,
+      "created": "2017-04-11T19:37:08.131Z",
+      "modified": "2017-04-11T19:37:08.131Z",
+      "content": "test",
+      "pings": [],
       "fullname": "Anonymous",
       "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
-      "created_by_current_user": "true",
-      "upvote_count": "0",
-      "user_has_upvoted": "false",
-      "postId": "stevesagget",
-      "id": 1
+      "created_by_current_user": true,
+      "upvote_count": 0,
+      "user_has_upvoted": false,
+      "postId": "steveerwin"
     },
     {
-      "parent": "",
-      "created": "2017-04-02T07:26:54.398Z",
-      "modified": "2017-04-02T07:26:54.398Z",
-      "content": "You cant act",
+      "id": 2,
+      "parent": "1",
+      "created": "2017-04-11T19:37:12.364Z",
+      "modified": "2017-04-11T19:37:12.364Z",
+      "content": "ih",
+      "pings": [],
       "fullname": "Anonymous",
       "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
-      "created_by_current_user": "true",
-      "upvote_count": "0",
-      "user_has_upvoted": "false",
-      "postId": "StevenSegal",
-      "id": 2
-    },
-    {
-      "parent": "",
-      "created": "2017-04-07T05:14:51.125Z",
-      "modified": "2017-04-07T05:14:51.125Z",
-      "content": "not too bad",
-      "fullname": "Anonymous",
-      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
-      "created_by_current_user": "true",
-      "upvote_count": "0",
-      "user_has_upvoted": "false",
-      "postId": "worstboss",
-      "id": 3
-    },
-    {
-      "parent": "",
-      "created": "2017-04-07T07:32:34.704Z",
-      "modified": "2017-04-07T07:32:34.704Z",
-      "content": "love windows",
-      "fullname": "Anonymous",
-      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
-      "created_by_current_user": "true",
-      "upvote_count": "0",
-      "user_has_upvoted": "false",
-      "postId": "billgates",
-      "id": 4
-    },
-    {
-      "parent": "",
-      "created": "2017-04-07T07:32:50.315Z",
-      "modified": "2017-04-07T07:32:50.315Z",
-      "content": "apples",
-      "fullname": "Anonymous",
-      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
-      "created_by_current_user": "true",
-      "upvote_count": "0",
-      "user_has_upvoted": "false",
-      "postId": "stevejobs",
-      "id": 5
-    },
-    {
-      "parent": "",
-      "created": "2017-04-07T23:30:44.087Z",
-      "modified": "2017-04-07T23:30:44.087Z",
-      "content": "best",
-      "fullname": "Anonymous",
-      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
-      "created_by_current_user": "true",
-      "upvote_count": "0",
-      "user_has_upvoted": "false",
-      "postId": "bestboss",
-      "id": 6
-    },
-    {
-      "parent": "",
-      "created": "2017-04-08T00:49:59.903Z",
-      "modified": "2017-04-08T00:49:59.903Z",
-      "content": "hi",
-      "fullname": "Anonymous",
-      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
-      "created_by_current_user": "true",
-      "upvote_count": "0",
-      "user_has_upvoted": "false",
-      "postId": "bestboss",
-      "id": 7
-    },
-    {
-      "parent": "",
-      "created": "2017-04-09T00:51:59.802Z",
-      "modified": "2017-04-09T00:51:59.802Z",
-      "content": "first",
-      "fullname": "Anonymous",
-      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
-      "created_by_current_user": "true",
-      "upvote_count": "0",
-      "user_has_upvoted": "false",
-      "postId": "firstboss",
-      "id": 8
-    },
-    {
-      "parent": "",
-      "created": "2017-04-09T00:52:15.878Z",
-      "modified": "2017-04-09T00:52:15.878Z",
-      "content": "new",
-      "fullname": "Anonymous",
-      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
-      "created_by_current_user": "true",
-      "upvote_count": "0",
-      "user_has_upvoted": "false",
-      "postId": "Newboss",
-      "id": 9
+      "created_by_current_user": true,
+      "upvote_count": 0,
+      "user_has_upvoted": false,
+      "postId": "steveerwin"
     }
   ],
   "posts": [
@@ -168,6 +79,21 @@
       "firstName": "first",
       "lastName": "boss",
       "id": "firstboss"
+    },
+    {
+      "firstName": "Rick",
+      "lastName": "Sanchez",
+      "id": "RickSanchez"
+    },
+    {
+      "firstName": "bob",
+      "lastName": "sagget",
+      "id": "bobsagget"
+    },
+    {
+      "firstName": "steve",
+      "lastName": "erwin",
+      "id": "steveerwin"
     }
   ]
 }
