@@ -1,8 +1,11 @@
 # Project473: Snark-A-Boss
 
-#Credits
+# Credits
+
 jquery-comments: https://github.com/Viima/jquery-comments
+
 jquery-ui: http://jqueryui.com/
+
 bootstrap: http://getbootstrap.com/
 
 Theme:
@@ -10,7 +13,7 @@ Theme:
 https://www.pexels.com/photo/access-adult-blur-business-261628/
 
 ---------------------------------------------------------------------------------------------------
-
+# Setup
 Setup Instructions for Snark-A-Boss:
 
 1) Open up a command line (either in Mac/Windows/Linux) and navigate into the same folder/directory Project473 is located in
