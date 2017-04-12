@@ -1,7 +1,0 @@
-1. enable replys
-
-2. add 'company' field to Add Your Boss page?
-
-3. documentation
-
-4. visual improvements
