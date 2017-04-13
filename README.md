@@ -19,7 +19,7 @@ https://www.pexels.com/photo/access-adult-blur-business-261628/
 - Francis
 - Kim Phung
 - Crystal Juarez
-- Roya
+- Roya Askari
 - Andrew Michel
 
 # Project Scope
